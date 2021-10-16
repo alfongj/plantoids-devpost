@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Tree</title>
+  <meta name="description" content="TODO">
+  <meta name="author" content="TODO">
+
+  <meta property="og:title" content="TODO">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="TODO">
+  <meta property="og:description" content="TODO">
+  <meta property="og:image" content="image.png">
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="index.css?v=1.0">
+</head>
+
+<body>
+  <main>
+    <div class="wrapper-cols">
+      <div class="wrapper-rows">
+        <div id="canvas-cont" width="600" height="600"></div>
+        <div id="text-output"></div>
+      </div>
+
+      <div class="wrapper-rows">
+        <button id="btn-iterate">Iterate</button>
+        <p id="iteration-counter"></p>
+      </div>
+    </div>
+    <div id="output-container" class="wrapper-rows wrapper-wrap">
+    </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>
+  <script src="../public/js/vendor/lindenmayer.js"></script>
+  <script src="../public/js/helper.js"></script>
+  <script src="../public/js/blockchain.js"></script>
+  <script src="../public/js/weather.js"></script>
+  <script src="../public/js/tree.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

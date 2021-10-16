@@ -1,0 +1,31 @@
+body, textarea {
+  background-color: "#ffffff";
+}
+
+canvas {
+  width: auto;
+  height: 600px;
+}
+
+.wrapper-rows {
+  display: flex;
+  flex-direction: row;
+}
+
+.wrapper-cols{
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-wrap {
+  flex-wrap: wrap;
+}
+
+#text-output {
+  max-height: 400px;
+  background-color: black;
+  color:chartreuse;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.5em;
+  overflow: scroll;
+}
